@@ -62,7 +62,7 @@ header {
 
 main {
   height: 86vh;
-  background-image: url('./bg-image.png');
+  background-image: url("./images/bg-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -99,14 +99,12 @@ main {
   padding-top: 60px;
 }
 
-
-.main-sec{
+.main-sec {
   display: flex;
   gap: 64px;
 }
 
-
-.pc{
+.pc {
   height: 86vh;
   display: flex;
   flex-direction: column;
@@ -116,23 +114,18 @@ main {
   padding-bottom: 142px;
 }
 
-
-footer{
+footer {
   background-color: #000000;
   padding: 28px 0px;
-
 }
 
-
-.footer-main{
+.footer-main {
   display: flex;
   justify-content: space-between;
-  align-items: center ;
+  align-items: center;
 }
 
-
-
-.footer-right{
+.footer-right {
   display: flex;
   gap: 52px;
 }
